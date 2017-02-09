@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Molle:400i");
+body {
+  font: 12px Helvetica, Arial, sans-serif;
+  background: #1d4a71;
+}
+.game-container {
+  width: 400px;
+  height: 450px;
+  background: url("../images/boardbg.jpg");
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 4px solid #31708f;
+  margin: auto;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.site-logo {
+  color: #fff;
+  text-align: center;
+}
+.game-row:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+.game-col:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.game-col {
+  height: 100px;
+  font-family: 'Molle', cursive;
+  line-height: 100px;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 2em;
+}
+.game-col:hover {
+  cursor: pointer;
+}
+.board-footer {
+  padding-top: 10px;
+  text-align: center;
+}
+.info {
+  color: #fff;
+  padding-left: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}

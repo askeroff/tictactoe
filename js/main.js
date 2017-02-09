@@ -33,9 +33,9 @@ $(document).ready(function() {
       let winner = checkGameState(board);
 
       if (winner == state.AIplayer) {
-        return -1000 + depth;
+        return 10 - depth;
       } else if (winner == state.playerIs) {
-        return depth - 1000;
+        return depth - 10;
       } else if (winner === 0) {
         return 0;
       }

@@ -62,6 +62,9 @@ body {
 .about a{
   color: #333;
   border-bottom: 1px solid #31708f;
+  background-color: aliceblue;
+  padding: 4px;
+
 }
 
 .about a:hover{
